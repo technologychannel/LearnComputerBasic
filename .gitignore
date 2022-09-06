@@ -7,6 +7,7 @@
 .atom/
 .buildlog/
 .history
+key.properties
 .svn/
 migrate_working_dir/
 

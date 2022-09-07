@@ -1,4 +1,6 @@
+import 'package:learn_computer_basic/screens/Useful_website_screen.dart';
 import 'package:learn_computer_basic/screens/computerparts_screen.dart';
+import 'package:learn_computer_basic/screens/full_form_screen.dart';
 import 'package:learn_computer_basic/screens/generation_computer.dart';
 import 'package:learn_computer_basic/screens/how_to_guide_screen.dart';
 import 'package:learn_computer_basic/screens/introductionandbasic_page.dart';
@@ -73,6 +75,16 @@ class HomePage extends StatelessWidget {
                 text: "How to Guide",
                 onTap: () {
                   Navigator.pushNamed(context, HowtoGuideScreen.routeName);
+                }),
+            BigBox(
+                text: "Full Forms",
+                onTap: () {
+                  Navigator.pushNamed(context, FullFormScreen.routeName);
+                }),
+            BigBox(
+                text: "Useful Websites",
+                onTap: () {
+                  Navigator.pushNamed(context, UsefulWebsiteScreen.routeName);
                 }),
           ],
         ),

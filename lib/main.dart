@@ -1,5 +1,7 @@
+import 'package:learn_computer_basic/screens/Useful_website_screen.dart';
 import 'package:learn_computer_basic/screens/about_page.dart';
 import 'package:learn_computer_basic/screens/computerparts_screen.dart';
+import 'package:learn_computer_basic/screens/full_form_screen.dart';
 import 'package:learn_computer_basic/screens/generation_computer.dart';
 import 'package:learn_computer_basic/screens/home_page.dart';
 import 'package:learn_computer_basic/screens/how_to_guide_screen.dart';
@@ -40,6 +42,8 @@ class MyApp extends StatelessWidget {
         HowtoGuideScreen.routeName: (ctx) => const HowtoGuideScreen(),
         AboutUsScreen.routeName: (ctx) => const AboutUsScreen(),
         ComputerPartsScreen.routeName: (ctx) => const ComputerPartsScreen(),
+        FullFormScreen.routeName: (ctx) => const FullFormScreen(),
+        UsefulWebsiteScreen.routeName: (ctx) => const UsefulWebsiteScreen(),
       },
     );
   }

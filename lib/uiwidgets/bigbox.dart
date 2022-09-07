@@ -14,7 +14,7 @@ class BigBox extends StatelessWidget {
         },
         child: Stack(
           children: [
-            Positioned(
+            Positioned.fill(
                 child: ClipRRect(
               borderRadius: BorderRadius.circular(10),
               child: Container(

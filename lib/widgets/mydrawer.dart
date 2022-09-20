@@ -61,7 +61,7 @@ class MyDrawer extends StatelessWidget {
             ),
             onTap: () {
               launchUrlString(
-                  "mailto:thulotechnology@gmail.com?subject=Computer Basic Guide Feedback&body=Write Message Here");
+                  "mailto:technologychannelofficial@gmail.com?subject=Computer Basic Guide Feedback&body=Write Message Here");
             },
           ),
           ListTile(
@@ -102,7 +102,7 @@ class MyDrawer extends StatelessWidget {
               color: Theme.of(context).primaryColor,
             ),
             onTap: () {
-              launchUrlString("https://thulotechnology.com/privacy-policy");
+              launchUrlString("https://privacypolicy.technologychannel.org/");
             },
           ),
           ListTile(

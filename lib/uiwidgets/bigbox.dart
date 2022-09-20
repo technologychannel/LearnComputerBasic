@@ -14,11 +14,10 @@ class BigBox extends StatelessWidget {
         },
         child: Stack(
           children: [
-            Positioned.fill(
+            Positioned(
                 child: ClipRRect(
               borderRadius: BorderRadius.circular(10),
               child: Container(
-                height: 120,
                 color: Theme.of(context).primaryColor,
               ),
             )),

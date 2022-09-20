@@ -1,12 +1,7 @@
-import 'package:learn_computer_basic/screens/Useful_website_screen.dart';
 import 'package:learn_computer_basic/screens/computerparts_screen.dart';
-import 'package:learn_computer_basic/screens/full_form_screen.dart';
 import 'package:learn_computer_basic/screens/generation_computer.dart';
 import 'package:learn_computer_basic/screens/how_to_guide_screen.dart';
 import 'package:learn_computer_basic/screens/introductionandbasic_page.dart';
-import 'package:learn_computer_basic/screens/ms_excel.dart';
-import 'package:learn_computer_basic/screens/ms_powerpoint.dart';
-import 'package:learn_computer_basic/screens/ms_word.dart';
 import 'package:learn_computer_basic/screens/shortcut_page.dart';
 import 'package:learn_computer_basic/screens/useful_software_screen.dart';
 import 'package:learn_computer_basic/uiwidgets/bigbox.dart';
@@ -27,7 +22,7 @@ class HomePage extends StatelessWidget {
       body: Center(
         child: GridView(
           gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
-              crossAxisCount: 2, crossAxisSpacing: 10.0, childAspectRatio: 1.3),
+              crossAxisCount: 1, childAspectRatio: 2.5),
           children: [
             BigBox(
                 text: "Introduction and Basics",
@@ -51,21 +46,21 @@ class HomePage extends StatelessWidget {
                 onTap: () {
                   Navigator.pushNamed(context, UsefulSoftwareScreen.routeName);
                 }),
-            BigBox(
-                text: "MS-Word",
-                onTap: () {
-                  Navigator.pushNamed(context, MicrosoftWordScreen.routeName);
-                }),
-            BigBox(
-                text: "MS-Excel",
-                onTap: () {
-                  Navigator.pushNamed(context, MicrosoftExcel.routeName);
-                }),
-            BigBox(
-                text: "MS-PowerPoint",
-                onTap: () {
-                  Navigator.pushNamed(context, PowerPointScreen.routeName);
-                }),
+            // BigBox(
+            //     text: "MS-Word",
+            //     onTap: () {
+            //       Navigator.pushNamed(context, MicrosoftWordScreen.routeName);
+            //     }),
+            // BigBox(
+            //     text: "MS-Excel",
+            //     onTap: () {
+            //       Navigator.pushNamed(context, MicrosoftExcel.routeName);
+            //     }),
+            // BigBox(
+            //     text: "MS-PowerPoint",
+            //     onTap: () {
+            //       Navigator.pushNamed(context, PowerPointScreen.routeName);
+            //     }),
             BigBox(
                 text: "Computer Shortcuts",
                 onTap: () {
@@ -75,16 +70,6 @@ class HomePage extends StatelessWidget {
                 text: "How to Guide",
                 onTap: () {
                   Navigator.pushNamed(context, HowtoGuideScreen.routeName);
-                }),
-            BigBox(
-                text: "Full Forms",
-                onTap: () {
-                  Navigator.pushNamed(context, FullFormScreen.routeName);
-                }),
-            BigBox(
-                text: "Useful Websites",
-                onTap: () {
-                  Navigator.pushNamed(context, UsefulWebsiteScreen.routeName);
                 }),
           ],
         ),

@@ -86,13 +86,13 @@ class HowtoGuideScreen extends StatelessWidget {
             "Solution 3:(Mac only)\n Restart Finder. To do this, press and hold command+Option+Esc on your keyboard to open the force quit applications dialog box. Next, locate and select Finder then click Relaunch. ",
           ]),
           QuestionList(
-              question: "Is your application running slow?\n",
+              question: "Is your application running slow?",
               lists: const [
-                "Solution 1:\n Close and reopen the application.\n",
+                "Solution 1:\n Close and reopen the application.",
                 "Solution 2:\n Update the application. To do this click the help menu and look for an option to check for updates. If you donot find this option, another idea is to run an online search for application updates.",
               ]),
           QuestionList(
-              question: "Does your pc keep disconnecting from Wifi?\n",
+              question: "Does your pc keep disconnecting from Wifi?",
               lists: const [
                 "Go to Advanced settings in the power options.",
                 "Here expand wireless Adaptor settings and then expand Power Saving Mode.",

@@ -9,7 +9,7 @@ class GenerationOfComputersScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Generations Of Computer'),
+        title: const Text('Generations Of Computers'),
       ),
       body: SafeArea(
           child: SingleChildScrollView(

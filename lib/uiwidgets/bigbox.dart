@@ -18,7 +18,6 @@ class BigBox extends StatelessWidget {
                 child: ClipRRect(
               borderRadius: BorderRadius.circular(10),
               child: Container(
-                height: 120,
                 color: Theme.of(context).primaryColor,
               ),
             )),

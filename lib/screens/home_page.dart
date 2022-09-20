@@ -25,7 +25,7 @@ class HomePage extends StatelessWidget {
       body: Center(
         child: GridView(
           gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
-              crossAxisCount: 2, crossAxisSpacing: 10.0, childAspectRatio: 1.3),
+              crossAxisCount: 1, childAspectRatio: 2.5),
           children: [
             BigBox(
                 text: "Introduction and Basics",
@@ -49,21 +49,21 @@ class HomePage extends StatelessWidget {
                 onTap: () {
                   Navigator.pushNamed(context, UsefulSoftwareScreen.routeName);
                 }),
-            BigBox(
-                text: "MS-Word",
-                onTap: () {
-                  Navigator.pushNamed(context, MicrosoftWordScreen.routeName);
-                }),
-            BigBox(
-                text: "MS-Excel",
-                onTap: () {
-                  Navigator.pushNamed(context, MicrosoftExcel.routeName);
-                }),
-            BigBox(
-                text: "MS-PowerPoint",
-                onTap: () {
-                  Navigator.pushNamed(context, PowerPointScreen.routeName);
-                }),
+            // BigBox(
+            //     text: "MS-Word",
+            //     onTap: () {
+            //       Navigator.pushNamed(context, MicrosoftWordScreen.routeName);
+            //     }),
+            // BigBox(
+            //     text: "MS-Excel",
+            //     onTap: () {
+            //       Navigator.pushNamed(context, MicrosoftExcel.routeName);
+            //     }),
+            // BigBox(
+            //     text: "MS-PowerPoint",
+            //     onTap: () {
+            //       Navigator.pushNamed(context, PowerPointScreen.routeName);
+            //     }),
             BigBox(
                 text: "Computer Shortcuts",
                 onTap: () {
